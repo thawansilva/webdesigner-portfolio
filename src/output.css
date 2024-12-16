@@ -694,6 +694,10 @@ video {
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
 .-bottom-10{
   bottom: -2.5rem;
 }
@@ -712,6 +716,10 @@ video {
 
 .top-\[70px\]{
   top: 70px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .z-\[1\]{

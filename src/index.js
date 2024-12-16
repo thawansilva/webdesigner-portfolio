@@ -14,14 +14,7 @@ navbar_icon.addEventListener("click", (e) => {
     navbar_list.classList.remove("opacity-100");
   }
 });
-let home_link = document.querySelector("#home");
-home_link.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
+
 let internal_link = document.querySelectorAll("a[href^='#']");
 internal_link.forEach((item) => {
   item.addEventListener("click", (e) => {
