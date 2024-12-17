@@ -686,6 +686,13 @@ video {
   text-decoration-line: underline;
 }
 
+.onScroll{
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(14 14 14 / var(--tw-text-opacity, 1));
+}
+
 .absolute{
   position: absolute;
 }
@@ -710,16 +717,16 @@ video {
   left: 50%;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .top-\[-400px\]{
   top: -400px;
 }
 
 .top-\[70px\]{
   top: 70px;
-}
-
-.top-0{
-  top: 0px;
 }
 
 .z-\[1\]{

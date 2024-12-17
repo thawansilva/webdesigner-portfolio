@@ -9,20 +9,29 @@
   .btn-secundary {
     @apply inline-block px-5 py-3 mt-3 font-bold transition duration-200 ease-in rounded-md hover:shadow-md bg-yellow-s hover:bg-gray-n text-dark-n;
   }
+
   .btn-secundary {
     @apply bg-transparent border-2 text-white-n hover:bg-yellow-s hover:text-dark-n border-yellow-s;
   }
+
   .card-services {
     @apply inline-block w-[322px] min-h-[270px] md:min-h-[302px] p-5 rounded-md bg-white-n text-gray-d text-center mx-auto;
   }
+
   .card-clients {
     @apply inline-block w-[408px] rounded-md bg-white-n mx-auto;
   }
+
   .subtitle {
     @apply mt-3 mb-5 text-center text-lightyellow-s;
   }
+
   .link {
     @apply inline-block mb-2 font-bold hover:underline;
+  }
+
+  .onScroll {
+    @apply bg-white-n text-dark-n;
   }
 }
 
