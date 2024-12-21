@@ -30,8 +30,8 @@
     @apply inline-block mb-2 font-bold hover:underline;
   }
 
-  .onScroll {
-    @apply bg-white-n text-dark-n;
+  #nav {
+    @apply bg-white-n text-dark-n z-10;
   }
 }
 

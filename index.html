@@ -11,62 +11,66 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body id="home">
-    <nav
-      id="nav"
-      class="sticky top-0 w-full p-5 text-dark-n md:flex md:items-center md:justify-between bg-white-n md:bg-transparent md:text-white-n md:container md:mx-auto lg:px-side"
-    >
-      <div class="flex items-center justify-between">
-        <span class="text-2xl font-bold cursor-pointer">Thawan Silva</span>
-        <span class="block text-2xl cursor-pointer md:hidden"
-          ><ion-icon id="icon" name="menu"></ion-icon
-        ></span>
-      </div>
-      <ul
-        class="gap-4 md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white-n w-full left-0 md:bg-transparent md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in"
+    <header>
+      <nav
+        id="nav"
+        class="z-10 w-full p-5 mx-auto text-dark-n md:flex md:items-center md:justify-between bg-white-n md:bg-transparent md:text-white-n lg:px-side"
       >
-        <li class="my-4 md:my-0">
+        <div class="flex items-center justify-between">
+          <span class="text-2xl font-bold cursor-pointer">Thawan Silva</span>
+          <span class="block text-2xl cursor-pointer md:hidden"
+            ><ion-icon id="icon" name="menu"></ion-icon
+          ></span>
+        </div>
+        <ul
+          class="gap-4 md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white-n w-full left-0 md:bg-transparent md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in"
+        >
+          <li class="my-4 md:my-0">
+            <a
+              href="#home"
+              class="font-semibold transition-all ease-in hover:text-yellow-s"
+              >Home</a
+            >
+          </li>
+          <li class="my-4 md:my-0">
+            <a
+              href="#serviços"
+              class="font-semibold transition-all ease-in hover:text-yellow-s"
+              >Serviços</a
+            >
+          </li>
+          <li class="my-4 md:my-0">
+            <a
+              href="#clientes"
+              class="font-semibold transition-all ease-in hover:text-yellow-s"
+              >Trabalhos</a
+            >
+          </li>
+          <li class="my-4 md:my-0">
+            <a
+              href="#sobre"
+              class="font-semibold transition-all ease-in hover:text-yellow-s"
+              >Sobre mim</a
+            >
+          </li>
           <a
-            href="#home"
-            class="font-semibold transition-all ease-in hover:text-yellow-s"
-            >Home</a
+            href="https://wa.me/5571987256742"
+            class="inline-block btn-primary md:hidden"
+            >Entre em Contato</a
           >
-        </li>
-        <li class="my-4 md:my-0">
-          <a
-            href="#serviços"
-            class="font-semibold transition-all ease-in hover:text-yellow-s"
-            >Serviços</a
-          >
-        </li>
-        <li class="my-4 md:my-0">
-          <a
-            href="#clientes"
-            class="font-semibold transition-all ease-in hover:text-yellow-s"
-            >Trabalhos</a
-          >
-        </li>
-        <li class="my-4 md:my-0">
-          <a
-            href="#sobre"
-            class="font-semibold transition-all ease-in hover:text-yellow-s"
-            >Sobre mim</a
-          >
-        </li>
+        </ul>
         <a
           href="https://wa.me/5571987256742"
-          class="inline-block btn-primary md:hidden"
+          class="hidden btn-primary md:block"
           >Entre em Contato</a
         >
-      </ul>
-      <a href="https://wa.me/5571987256742" class="hidden btn-primary md:block"
-        >Entre em Contato</a
-      >
-    </nav>
-    <main>
+      </nav>
+    </header>
+    <main class="relative">
       <!-- Home -->
       <div class="relative">
         <div
-          class="container flex items-center justify-between w-full px-5 pt-20 mx-auto lg:px-side"
+          class="container z-0 flex items-center justify-between w-full px-5 pt-20 mx-auto lg:px-side"
         >
           <div class="md:w-3/5 md:h-full">
             <h1 class="text-gray-n">
@@ -275,5 +279,13 @@
       </p>
     </footer>
     <script type="module" src="./src/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

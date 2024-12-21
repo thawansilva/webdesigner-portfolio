@@ -29,25 +29,27 @@ internal_link.forEach((item) => {
       });
     } else {
       window.scrollTo({
-        top: sectionTarget.offsetTop + 60,
+        top: sectionTarget.offsetTop + 120,
         behavior: "smooth",
       });
     }
   });
 });
 
-// Change on background color
-let onTop = false;
-let navbar = document.querySelector("#nav");
+// // Change on background color
+// let onTop = false;
+// let navbar = document.querySelector("nav");
 
-window.onscroll = function (e) {
-  if (window.scrollY < 10 && !onTop) {
-    navbar.classList.remove("onScroll");
-    onTop = true;
-  }
+// window.onscroll = function (e) {
+//   if (window.scrollY < 10 && !onTop) {
+//     navbar.classList.add("md:bg-transparent");
+//     navbar.classList.add("md:text-white-n");
+//     onTop = true;
+//   }
 
-  if (window.scrollY > 10 && onTop) {
-    navbar.classList.add("onScroll");
-    onTop = false;
-  }
-};
+//   if (window.scrollY > 10 && onTop) {
+//     navbar.classList.remove("md:bg-transparent");
+//     navbar.classList.remove("md:text-white-n");
+//     onTop = false;
+//   }
+// };
